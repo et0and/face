@@ -45,7 +45,7 @@ const CameraAsciiPanel = () => {
     };
 
     return (
-        <main className='overflow-hidden bg-black'>
+        <main className='h-full w-full overflow-hidden bg-black'>
             <div ref={parentRef} className='h-screen w-screen'>
                 <Webcam ref={videoRef}
                     style={{width: 0, height: 0, position: 'absolute', top: 0, left: 0}}
